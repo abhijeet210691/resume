@@ -18,6 +18,9 @@ h4{
 h5{
     font-size: 16px;
 }
+h6{
+    font-size: 14px;
+}
 .resume-container{
     display: flex;
     max-width: 800px;
@@ -61,8 +64,12 @@ h5{
 }
 
 .details-list{
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 0;
+}
+
+.details-list li{
+    margin-top: 10px;
 }
 
 .details-list h4{
@@ -87,4 +94,21 @@ h5{
 
 .profile-details{
     padding: 24px;
+}
+
+.education ul li{
+    margin-bottom: 10px;
+}
+
+.education-para{
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.projects-link li{
+    list-style: disc;
+}
+
+.employment ul{
+    list-style: disc;
 }
